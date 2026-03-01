@@ -2,7 +2,9 @@ name: project-5              # Workflow gets triggered if any commits on other b
 on:
   push:
     branches:
-      - "dev-1"
+      - dev-1
+    branches-ignore:
+      - main
 jobs:
   info:
      runs-on: ubuntu-latest

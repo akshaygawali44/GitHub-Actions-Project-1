@@ -1,4 +1,4 @@
-name: project2     # Parallel Execution workflow
+name: project-1     # Parallel Execution workflow
 on: workflow_dispatch
 jobs:
   build:

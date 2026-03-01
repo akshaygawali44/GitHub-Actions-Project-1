@@ -2,9 +2,8 @@ name: project-5
 
 on:
   push:
-    branches-ignore:
-      - main
-      - master
+    branches:
+      - dev-1
 
 jobs:
   info:

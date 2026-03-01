@@ -1,4 +1,4 @@
-name: project2                 # Sequential Execution Of Workflow 
+name: projec-2                 # Sequential Execution Of Workflow 
 on: workflow_dispatch
 jobs:
   build:

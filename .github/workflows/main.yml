@@ -7,7 +7,7 @@ on:
 
 env:
   APP_PORT: 3000
-  IMAGE_NAME: akshaygawali44/gabrimage
+  IMAGE_NAME: akshay2233/gabrimage # <dockerhub-username>/<repository-name>:<tag>
   CONTAINER_NAME: gabr1_app
 
 jobs:

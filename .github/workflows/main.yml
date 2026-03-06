@@ -7,7 +7,7 @@ on:
 
 env:
   APP_PORT: 3000
-  IMAGE_NAME: akshay2233/gabrimage
+  IMAGE_NAME: akshaygawali44/gabrimage
   CONTAINER_NAME: gabr1_app
 
 jobs:
@@ -53,7 +53,7 @@ jobs:
       - name: Login to DockerHub
         uses: docker/login-action@v3
         with:
-          username: ${{ secrets.DOCKER_USER }}
+          username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Push Docker Image

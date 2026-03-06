@@ -7,7 +7,7 @@ on:
 
 env:
   APP_PORT: 3000
-  IMAGE_NAME: rahamshaik/gabrimage
+  IMAGE_NAME: akshaygawali44/gabrimage
   CONTAINER_NAME: gabr1_app
 
 jobs:
@@ -45,6 +45,7 @@ jobs:
 
       - name: Build Docker Image
         run: docker build -t $IMAGE_NAME:${{ github.sha }} .
+# github.sha : It is a default context variable that represents the commit SHA (a unique identifier) of the commit that triggered the workflow run
 
       - name: Tag Image
         run: docker tag $IMAGE_NAME:${{ github.sha }} $IMAGE_NAME:latest
